@@ -1,0 +1,32 @@
+{
+    "name": "appdev-cas-proxy",
+    "version": "0.0.0",
+    "description": "a proxy server for the CAS RESTful API",
+    "main": "module.js",
+    "directories": {
+        "test": "test"
+    },
+    "scripts": {
+        "test": "make test",
+        "postinstall": "node setup/setup.js",
+        "postupdate": "node setup/setup.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/appdevdesigns/appdev-cas-proxy.git"
+    },
+    "author": "Joshua Chan",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/appdevdesigns/appdev-cas-proxy/issues"
+    },
+    "homepage": "https://github.com/appdevdesigns/appdev-cas-proxy",
+    "dependencies": {
+        "ad-utils": "git://github.com/appdevdesigns/ad-utils",
+        "request": "2.65.x"
+    },
+    "devDependencies": {
+        "chai": "^3.4.1",
+        "mocha": "^2.3.4"
+    }
+}
